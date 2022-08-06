@@ -3,4 +3,6 @@
 
 This design is a work in progress and probably has problems.
 
+[Interactive BOM](https://btb.github.io/LanguageCard/bom/)
+
 ![image info](LanguageCard.png)
