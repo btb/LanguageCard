@@ -23,6 +23,10 @@ variants:
   - _kicost_rename
   - _rot_footprint
 
+preflight:
+  run_drc: true
+  run_erc: true
+
 outputs:
 - name: basic_boardview
   comment: Board View export
