@@ -1,4 +1,4 @@
-name: example
+name: KiCad CI/CD
 
 on:
   workflow_dispatch:
