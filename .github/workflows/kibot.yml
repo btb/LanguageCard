@@ -27,7 +27,7 @@ jobs:
       with:
         config: LanguageCard.kibot.yaml
         schema: LanguageCard.kicad_sch
-        board: LanguageCard.kicad_brd
+        board: LanguageCard.kicad_pcb
 
     - name: Upload results
       uses: actions/upload-artifact@v2
