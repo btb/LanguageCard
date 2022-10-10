@@ -26,9 +26,6 @@ variants:
 preflight:
   run_drc: true
   run_erc: true
-  update_xml:
-    enabled: true
-    check_pcb_parity: true
 
 outputs:
 - name: basic_boardview
