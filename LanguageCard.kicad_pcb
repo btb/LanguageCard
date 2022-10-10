@@ -5,6 +5,10 @@
   )
 
   (paper "USLetter")
+  (title_block
+    (rev "0")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -74,7 +78,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers")
+      (outputdirectory "gerbers_${REVISION}")
     )
   )
 
