@@ -25,7 +25,7 @@ jobs:
     - name: Run KiBot
       uses: INTI-CMNB/KiBot@v2_k6
       with:
-        config: LanguageCard.kibot.yml
+        config: LanguageCard.kibot.yaml
         schema: LanguageCard.kicad_sch
         board: LanguageCard.kicad_brd
 
