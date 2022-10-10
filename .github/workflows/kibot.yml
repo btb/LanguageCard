@@ -12,8 +12,7 @@ on:
       - '**.kicad_pcb'
 
 jobs:
-  quick:
-    name: "Quick Start (action)"
+  LanguageCard:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,7 +25,9 @@ jobs:
     - name: Run KiBot
       uses: INTI-CMNB/KiBot@v2_k6
       with:
-        quickstart: YES
+        config: LanguageCard.kibot.yml
+        schema: LanguageCard.kicad_sch
+        board: LanguageCard.kicad_brd
 
     - name: Upload results
       uses: actions/upload-artifact@v2
