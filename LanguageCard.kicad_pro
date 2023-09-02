@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,9 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "track_dangling|175418349|59055000|f506b9ff-d185-435b-a1b0-ddfe47396292|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -73,8 +71,8 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "duplicate_footprints": "ignore",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -139,10 +137,10 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
+          "td_on_pad_in_zone": true,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
@@ -159,7 +157,7 @@
         {
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_rect_shape",
