@@ -1154,7 +1154,7 @@
       (net 88 "/ROMEN2") (pinfunction "Pin_5") (pintype "passive") (tstamp 70bf0494-8256-44c1-aa48-b73ecd9720fa))
     (pad "6" thru_hole oval (at 2.54 5.08 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 9 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp 75f92b38-f24b-4e8b-ba90-9e758dba5c65))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2936,10 +2936,25 @@
       (net 90 "/F8SEL") (pinfunction "B") (pintype "passive") (tstamp 0d2ee7bc-dad8-42e5-882c-d0dd418f55d8))
     (pad "6" thru_hole circle (at 4.699 0 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask")
       (net 88 "/ROMEN2") (pinfunction "C") (pintype "passive") (tstamp b6265b94-761b-4cd2-a522-6ad45b77fadc))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Lever_1P2T_NKK_GW12LxH.wrl"
-      (offset (xyz 0 0 0))
+    (model "/Users/bradleyb/Documents/KiCad/7.0/3dmodels/100DP1T2B4M6QE--3DModel-STEP-613395.STEP" hide
+      (offset (xyz 0 1.905 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
+    )
+    (model "/Users/bradleyb/Documents/KiCad/6.0/3dmodels/2AS1T2A1M6RES--3DModel-STEP-56544.STEP" hide
+      (offset (xyz 0 -12.065 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+    (model "/Users/bradleyb/Documents/KiCad/6.0/3dmodels/M83731_16-231.stp" hide
+      (offset (xyz 0 -13.335 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
+    (model "/Users/bradleyb/Documents/KiCad/6.0/3dmodels/switch_1md3t6b11m6re.stp"
+      (offset (xyz 0 -3.81 5.715))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
     )
   )
 
