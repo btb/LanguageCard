@@ -52,9 +52,9 @@ JP2 open, Jumper on pins 1,3 (lower right): Card ROM enabled
 
 #### Using two ROM images on a 4K or larger ROM:
 
-JP3 shorted, Jumper on pins 1,3 (lower right) and 2,4 (lower left): Upper ROM image enabled (A11 high)
+JP2 shorted, Jumper on pins 1,3 (lower right) and 2,4 (lower left): Upper ROM image enabled (A11 high)
 
-JP3 shorted, Jumper on pins 3,5 (upper right) and 4,6 (upper left): Lower ROM image enabled (A11 low)
+JP2 shorted, Jumper on pins 3,5 (upper right) and 4,6 (upper left): Lower ROM image enabled (A11 low)
 
 ### Solder Jumper JP2
 Short, and install DPDT switch	(or use pair of jumpers as above) for	ability to select two different F8	ROM images on a single (4K or larger) ROM. 
