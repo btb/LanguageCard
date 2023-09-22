@@ -9,7 +9,9 @@
 
 This is a simple "language card" for the Apple II and II+, which expands the system from 48K to 64K by means of 16K of RAM, switchable into the address space normally used by the system firmware. That's two banks of 4K in the D0-D8 space, and one bank of 8K in the E0-F8 space. The C0-C8 space is not touched.
 
-Like the original language cards, it can also contain a chip that will be used to replace the F8 ROM on your logic board. Unlike the original language cards, you can enable or disable this replacement ROM with a switch or jumpers. If configured correctly, you can put two different F8 ROM images on a single chip and switch back and forth between them.
+It uses static RAM so there is no need for the ribbon cable connecting it to the logic board that the original language cards had.
+
+Like the original language cards, it can also contain a chip that will be used to replace the F8 ROM on your logic board. Additionally, you can enable or disable this replacement ROM with a switch or jumpers. If configured correctly, you can put two different F8 ROM images on a single chip and switch back and forth between them.
 
 ## Build Notes
 
